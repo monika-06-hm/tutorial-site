@@ -2,6 +2,8 @@
     display: flex;
     border: 1px solid;
     justify-content: center;
+    position: relative;
+    left: 10% ;
     width: 80%;
 }
 .card{
@@ -11,6 +13,8 @@
     display: flex;
     align-items: center;
     width: 100%;
+    position: relative;
+    left: 15%;
     justify-content: space-around;
 }
 .dsc{
