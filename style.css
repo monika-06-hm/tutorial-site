@@ -1,0 +1,17 @@
+.courses{
+    display: flex;
+    border: 1px solid;
+    justify-content: center;
+    width: 80%;
+}
+.card{
+    margin: 1%;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.dsc{
+    display: flex;
+    align-items: center;
+}
