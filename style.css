@@ -10,8 +10,14 @@
 .header{
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: space-around;
 }
 .dsc{
     display: flex;
     align-items: center;
+    width: 40%;
+}
+.descImg{
+    width: 60%;
 }
