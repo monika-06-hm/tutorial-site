@@ -38,3 +38,84 @@ h1{
 .card-img-top{
     height: 25vh;
 }
+
+
+/* Reset default margin and padding for all elements */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font and font size for body */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Style header section */
+  header {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  /* Style main content section */
+  main {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  
+  /* Style footer section */
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style navbar */
+  .navbar {
+    background-color: #e9ecef;
+  }
+  
+  .navbar-brand {
+    width: 100px; /* Set width for logo image */
+    height: 50px; /* Set height for logo image */
+    background-image: url(./resourse/logo.png); /* Set path to your logo image */
+    background-size: cover; /* Make sure the logo image covers the entire space */
+    background-position: center; /* Center the logo image within the space */
+  }
+  
+  .navbar-toggler-icon {
+    /* Style the navbar toggler icon */
+    background-image: url(./resourse/menu.png); /* Set path to your navbar toggler icon */
+    background-size: cover; /* Make sure the icon image covers the entire space */
+    width: 30px; /* Set width for icon image */
+    height: 30px; /* Set height for icon image */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333; /* Set color for navbar links */
+  }
+  
+  /* Style form for search input */
+  form[role="search"] {
+    margin-left: auto; /* Align form to the right */
+  }
+  
+  .form-control {
+    width: 200px; /* Set width for search input */
+  }
+  
+  /* Style list items in contact info */
+  ul li {
+    list-style-type: none; /* Remove bullet points */
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  
+  /* Style icon images in contact info */
+  .icn {
+    width: 20px; /* Set width for icon images */
+    height: 20px; /* Set height for icon images */
+    margin-right: 5px; /* Add spacing between icon and text */
+  }
+  
