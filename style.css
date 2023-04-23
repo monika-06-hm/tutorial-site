@@ -61,7 +61,8 @@ body, h1, h2, p, ul, li {
   /* Style main content section */
   main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
   }
   
