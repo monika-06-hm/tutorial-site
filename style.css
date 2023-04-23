@@ -34,6 +34,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 .card-img-top{
     height: 25vh;
@@ -106,11 +107,17 @@ body, h1, h2, p, ul, li {
   .form-control {
     width: 200px; /* Set width for search input */
   }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   /* Style list items in contact info */
-  ul li {
-    list-style-type: none; /* Remove bullet points */
-    margin-bottom: 10px; /* Add spacing between list items */
+  li {
+    list-style:  none; /* Remove bullet points */
+    margin: 2%; /* Add spacing between list items */
+    justify-content: center;
   }
   
   /* Style icon images in contact info */
